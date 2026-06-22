@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Happy Father's Day ❤️</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+<audio id="bgMusic" loop autoplay>
+    <source src="maksymmalko-happy-fatherx27s-day-music-345953.mp3" type="audio/mpeg">
+</audio>
+
+<button id="musicBtn" onclick="toggleMusic()">
+    🔊 Play Music
+</button>
+<body>
+
+<!-- Floating Hearts -->
+<div id="heartContainer"></div>
+
+<!-- Sliding Message Card -->
+
+<div class="balloons">
+
+<span>🎈</span>
+<span>🎈</span>
+<span>🎈</span>
+<span>🎈</span>
+
+</div>
+<!-- Overlay -->
+<div id="overlay"></div>
+
+<!-- Message Card -->
+<div id="messageCard">
+
+    <span id="closeBtn" onclick="closeCard()">✖</span>
+
+    <h2>❤️ Happy Father's Day ❤️</h2>
+
+    <p id="messageText"></p>
+
+    <div class="buttons">
+
+        <button onclick="nextMessage()">
+            💌 Next Message
+        </button>
+
+        <button onclick="closeCard()">
+            😊 Close
+        </button>
+
+    </div>
+
+</div>
+<div class="container">
+
+    <h1>Happy Father's Day ❤️</h1>
+
+    <img
+        src="WhatsApp Image 2026-06-21 at 17.09.28.jpeg"
+        class="hero"
+        id="heroImage"
+    >
+
+    <p class="intro">
+
+        प्रिय पापा ❤️
+
+        <br><br>
+
+        आपका प्यार, आपका साथ और आपकी सीख
+        हमारी ज़िंदगी की सबसे बड़ी ताकत है।
+
+        <br><br>
+
+        आप हमारे पहले हीरो,
+        हमारे सबसे अच्छे दोस्त
+        और हमारी सबसे बड़ी प्रेरणा हैं।
+
+        <br><br>
+
+        Happy Father's Day ❤️
+
+    </p>
+
+    <div class="photo">
+
+        <img
+            id="photo"
+            src="images/dad1.jpg"
+        >
+
+    </div>
+
+    <button onclick="showWish()">
+
+        🎁 Click Here 🎁
+
+    </button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
